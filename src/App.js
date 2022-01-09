@@ -1,4 +1,5 @@
 import './App.css'
+import image from './logo512.png'
 
 function App() {
   return (
@@ -20,7 +21,16 @@ function App() {
 
       <div className="bg-white p-3 rounded-xl sm:p-3 md:p-4 sm:rounded-2xl shadow-lg my-4 flex justify-between">
           <div className="p-3">
-            <div className="profile"></div>
+            <div className="profile flex ">
+              <div className="avatar">
+                <img src={image} alt="" class="w-20 rounded-full" />
+              </div>
+              <div className="profile text-left ml-4 flex flex-col leading-7">
+                <h5>Giwang Dwi Kintan</h5>
+                <a>@giwangdk</a>
+                <h6>Joined 6 Jan 2020</h6>
+              </div>
+            </div>
        </div>
       </div>
     </div>

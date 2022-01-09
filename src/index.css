@@ -11,3 +11,14 @@
 body{
     background-color:rgb(236, 246, 247);
 }
+
+
+    h5{
+        @apply text-lg font-bold text-gray-600
+    }
+    a{
+        @apply text-base font-semibold text-blue-400
+    }
+    h6{
+        @apply text-sm text-zinc-500
+    }
