@@ -25,3 +25,6 @@ h6{
 p{
     @apply text-base text-zinc-600 tracking-wide
 }
+.count{
+    @apply text-xl text-black font-bold
+}

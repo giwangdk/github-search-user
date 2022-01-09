@@ -34,6 +34,21 @@ function App() {
             <div className="bio text-left my-5">
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nesciunt porro sit repellat adipisci autem, placeat nemo nisi! Ipsum delectus necessitatibus minima voluptatem neque molestias quo, velit cumque quod nostrum!</p>
             </div>
+            <div className="recap bg-blue-100 flex justify-between py-4 rounded-2xl px-8">
+              <div className="repo">
+                <h6>Repo</h6>
+                <p className="count">8</p>
+              </div>
+              <div className="repo">
+                <h6>Repo</h6>
+                <p className="count">8</p>
+              </div>
+              <div className="repo">
+                <h6>Repo</h6>
+                <p className="count">8</p>
+              </div>
+            </div>
+            
        </div>
       </div>
     </div>
