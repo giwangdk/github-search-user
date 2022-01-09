@@ -31,6 +31,9 @@ function App() {
                 <h6>Joined 6 Jan 2020</h6>
               </div>
             </div>
+            <div className="bio text-left my-5">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nesciunt porro sit repellat adipisci autem, placeat nemo nisi! Ipsum delectus necessitatibus minima voluptatem neque molestias quo, velit cumque quod nostrum!</p>
+            </div>
        </div>
       </div>
     </div>
