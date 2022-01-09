@@ -9,10 +9,12 @@
 }
 
 body{
-    background-color:rgb(236, 246, 247);
+    background-color:rgba(236, 246, 247, 0.637);
 }
 
-
+h4{
+    @apply text-lg font-bold 
+}
 h5{
     @apply text-lg font-bold text-gray-600
 }
