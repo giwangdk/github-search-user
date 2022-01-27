@@ -7,7 +7,7 @@ function CardResult({data}) {
           <div className="p-3">
             <div className="profile flex items-center ">
               <div className="avatar ">
-                <img src={image} alt="" class="w-20 md:w-28 rounded-full" />
+                <img src={data?.avatar_url} alt="" class="w-20 md:w-28 rounded-full" />
               </div>
               <div className="profile text-left ml-4 flex flex-col just">
                 <h3>{data?.name}</h3>
@@ -15,24 +15,24 @@ function CardResult({data}) {
                 <h6>Joined 6 Jan 2020</h6>
               </div>
             </div>
-            <div className="description flex ">
+            <div className="description flex w-100 ">
               <div className="lg:w-2/3"></div>
-              <div className="">
+              <div className="w-100">
               <div className="bio text-left mb-3 flex ">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nesciunt porro sit repellat adipisci autem, placeat nemo nisi! Ipsum delectus necessitatibus minima voluptatem neque molestias quo, velit cumque quod nostrum!</p>
+              <p>{data?.bio ? data?.bio : "The user has no bio"}</p>
             </div>
-            <div className="recap bg-blue-50 flex justify-between py-4 rounded-2xl px-8">
+            <div className="recap bg-blue-50  flex justify-between py-4 rounded-2xl px-8">
               <div className="repo">
                 <h6>Repo</h6>
-                <p className="count">8</p>
+                  <p className="count">{ data?.public_repos}</p>
               </div>
               <div className="repo">
                 <h6>Followers</h6>
-                <p className="count">8</p>
+                  <p className="count">{data?.followers}</p>
               </div>
               <div className="repo">
                 <h6>Following</h6>
-                <p className="count">8</p>
+                  <p className="count">{data?.following}</p>
               </div>
             </div>
             <div className="text-left">
