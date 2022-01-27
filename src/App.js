@@ -19,6 +19,16 @@ function App() {
     }
   }
 
+
+  const searchUser = async (username) => {
+    try {
+      const res = await axios.get(`https://api.github.com/users/${username}`)
+      setData(res.data)
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   useEffect(() => {
     getDefaultData()
   }, []);
@@ -29,7 +39,7 @@ function App() {
     <div class="App">
       <div className="  sm:my-20 w-auto  p-5 sm:w-2/3 lg:w-7/12 md:m-auto m-5">
       <Header/>
-      <Search/>
+        <Search action={searchUser}/>
         <CardResult data={data}/>
       </div>
       </div>
