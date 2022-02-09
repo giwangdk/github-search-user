@@ -3,7 +3,7 @@ import image from '../../logo512.png'
 
 function CardResult({data}) {
     return (
-        <div className="bg-white  rounded-xl sm:p-2 md:p-2 sm:rounded-2xl shadow-lg my-4 flex justify-between">
+        <div className="bg-white dark:bg-slate-700 dark:text-white rounded-xl sm:p-2 md:p-2 sm:rounded-2xl shadow-lg my-4 flex justify-between">
           <div className="p-3">
             <div className="profile flex items-center ">
               <div className="avatar ">

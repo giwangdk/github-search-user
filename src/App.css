@@ -3,7 +3,9 @@
 .App {
   text-align: center;
   font-family: 'Roboto Mono', sans-serif;
+  background-color:rgba(236, 246, 247, 0.637);
 }
+
 
 .App-logo {
   height: 40vmin;

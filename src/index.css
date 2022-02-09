@@ -8,9 +8,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color:rgba(236, 246, 247, 0.637);
-}
 h3{
     @apply text-2xl font-bold  tracking-wider	
 }

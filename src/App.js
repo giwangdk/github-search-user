@@ -36,7 +36,7 @@ function App() {
   console.log("data", data);
   
   return (
-    <div class="App">
+    <div class="App dark:bg-slate-900">
       <div className="  sm:my-20 w-auto  p-5 sm:w-2/3 lg:w-7/12 md:m-auto m-5">
       <Header/>
         <Search action={searchUser}/>
