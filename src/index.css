@@ -16,17 +16,17 @@ h4{
     @apply text-lg font-bold 
 }
 h5{
-    @apply text-lg font-bold text-gray-600
+    @apply text-lg font-bold
 }
 a{
     @apply text-base font-semibold text-blue-400
 }
 h6{
-    @apply text-sm text-zinc-500
+    @apply text-sm text-zinc-500 dark:text-white
 }
 p{
-    @apply text-base text-zinc-600 tracking-wide
+    @apply text-base text-zinc-600 dark:text-white tracking-wide
 }
 .count{
-    @apply text-xl text-black font-bold
+    @apply text-xl text-black dark:text-white font-bold
 }

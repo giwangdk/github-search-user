@@ -21,7 +21,7 @@ function CardResult({data}) {
               <div className="bio text-left mb-3 flex ">
               <p>{data?.bio ? data?.bio : "The user has no bio"}</p>
             </div>
-            <div className="recap bg-blue-50  flex justify-between py-4 rounded-2xl px-8">
+            <div className="recap bg-blue-50 dark:bg-slate-900 dark:text-white flex justify-between py-4 rounded-2xl px-8">
               <div className="repo">
                 <h6>Repo</h6>
                   <p className="count">{ data?.public_repos}</p>
